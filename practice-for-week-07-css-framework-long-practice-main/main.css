@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -48,4 +49,38 @@ nav {
 
 .bell-btn {
   cursor: pointer;
+}
+
+.firstheader {
+text-align: center;
+text-transform: capitalize;
+margin-top: 100px;
+font-size: 60px;
+font-family: Merriweather;
+}
+
+.secondheader {
+
+}
+
+.firstpar {
+  text-align: center;
+  font-size: 30px;
+  margin: 50px auto;
+  width: 60%;
+}
+
+.inputform {
+  width: 25%;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputname {
+  margin-bottom: 25px;
 }
