@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  
 }
 
 .logo {
@@ -59,9 +59,6 @@ nav {
   font-family: Merriweather;
 }
 
-.secondheader {
-}
-
 .firstpar {
   text-align: center;
   font-size: 30px;
@@ -70,7 +67,7 @@ nav {
 }
 
 .inputform {
-  width: 50%;
+  width: 20%;
   height: 500px;
   border: 1px solid black;
   margin: 0 auto;
@@ -78,12 +75,13 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background-color: #faf0e6;
 }
 
 input {
-  width: auto;
-  border: 2px solid black;
-  border-radius: 5px;
+  width: 100%;
+  border: 1px solid darkslategrey;
+  border-radius: 2px;
   padding: 8px;
   margin: 5px;
 }
@@ -91,12 +89,53 @@ input {
 .inputname {
   margin-top: 15px;
   margin-bottom: 25px;
-}
-
-.name-container {
-  display: flex;
+  font-family: Merriweather;
 }
 
 .input-labels {
-  margin-bottom: 3px;
+  margin-bottom: 1px; 
+  margin-left: 6px;
+  margin-top: 10px;
+  font-family: Merriweather;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.753);
+  font-weight: bold;
 }
+
+.card-img-top {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 120px;
+  height: 30px;
+  background-size: 120px 30px contain;
+}
+
+.card-img-bottom {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 240px;
+  height: 60px;
+  background-size: 120px 30px contain;
+}
+
+.col-12 {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.btn-submit {
+  color: rgba(0, 0, 0, 0.753);
+  border: 1px solid darkslategrey;
+  background-color: white;
+  padding: 15px;
+  border-radius: 3px;
+  font-family: Merriweather;
+  font-weight: 1000;
+  text-decoration: none;
+}
+
+.btn-submit:hover {
+  background-color: darkgray;
+  cursor: pointer;
+}
+
