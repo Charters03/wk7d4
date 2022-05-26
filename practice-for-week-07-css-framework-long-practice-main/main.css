@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  width: 30px;
+}
+
+nav {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002d62;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-buttons > a {
+  color: black;
+  background-color: white;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: Lato;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.bell-btn {
+  height: 25px;
+  /* margin-top: 3px; */
+}
+
+.nav-buttons > a:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.bell-btn {
+  cursor: pointer;
+}
