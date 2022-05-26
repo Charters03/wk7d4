@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap");
 
 * {
   box-sizing: border-box;
@@ -52,15 +52,14 @@ nav {
 }
 
 .firstheader {
-text-align: center;
-text-transform: capitalize;
-margin-top: 100px;
-font-size: 60px;
-font-family: Merriweather;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 100px;
+  font-size: 60px;
+  font-family: Merriweather;
 }
 
 .secondheader {
-
 }
 
 .firstpar {
@@ -71,16 +70,33 @@ font-family: Merriweather;
 }
 
 .inputform {
-  width: 25%;
+  width: 50%;
   height: 500px;
   border: 1px solid black;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
+input {
+  width: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+}
+
 .inputname {
+  margin-top: 15px;
   margin-bottom: 25px;
+}
+
+.name-container {
+  display: flex;
+}
+
+.input-labels {
+  margin-bottom: 3px;
 }
